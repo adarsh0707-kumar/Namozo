@@ -22,6 +22,7 @@
 See [`task1-gtm-schema.md`](./task1-gtm-schema.md)
 
 **Covers:**
+
 - Full event schema for all 6 interaction types (booking form, call buttons, WhatsApp, PDF download, clinic page views, blog scroll depth)
 - Exact dataLayer JSON for all 3 booking form steps
 - Explanation of why GTM requires custom dataLayer pushes for multi-step forms
@@ -36,6 +37,7 @@ See [`task2-landing-page.html`](./task2-landing-page.html)
 **Live demo:** Open the HTML file directly in any browser — no server required.
 
 **Key decisions:**
+
 - Audience-specific copy for Bengaluru working professionals (28–50) with knee/back pain — not generic healthcare copy
 - 2 required fields (name + phone) + 1 optional (clinic preference) — keeps friction minimal
 - GTM `consultation_form_submitted` dataLayer push fires on valid submit only, not on page load
@@ -43,6 +45,7 @@ See [`task2-landing-page.html`](./task2-landing-page.html)
 - Designed for mobile-first; PageSpeed target 90+
 
 **To verify the dataLayer push (for Loom):**
+
 1. Open the HTML file in Chrome
 2. Open DevTools → Console
 3. Submit the form with valid inputs
